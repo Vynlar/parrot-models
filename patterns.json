@@ -34,17 +34,13 @@
   "hiss": {
     "sounds": ["hiss"],
     "threshold": {
-      ">power": 3,
+      ">power": 2,
       ">probability": 0.9
     },
-    "graceperiod": 0.2,
+    "graceperiod": 1,
     "grace_threshold": {
-      ">power": 2,
-      ">probability": 0.6
-    },
-    "detect_after": 0.1,
-    "throttle": {
-      "speech": 0.8
+      ">power": 1,
+      ">probability": 0.3
     }
   },
   "shush": {
@@ -57,10 +53,6 @@
     "grace_threshold": {
       ">power": 2,
       ">probability": 0.4
-    },
-    "detect_after": 0.1,
-    "throttle": {
-      "speech": 0.8
     }
   },
   "speech": {
@@ -68,10 +60,6 @@
     "threshold": {
       ">power": 6,
       ">probability": 0.9
-    },
-    "throttle": {
-      "hiss": 0.8,
-      "shush": 0.8
     }
   }
 }
